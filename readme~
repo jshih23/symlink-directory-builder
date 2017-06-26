@@ -26,16 +26,11 @@ Creates directory in auto-created directory
 SLDB 1.3:
 Creates directory in project specific auto created directory
 no significant gui changes
-+streamlined keck_file_list upload process. 
-+Now users are only asked to locate their sirius trunk directory.
-+From there, the program searches for keck_file_lists and provides them as options in a combobox.
 +run - create directory in /work/SLDB-links-directories/<your project name> - based on keck_file_list
-+this allows for the creation of multiple directories, all with unique names.
++this allows the creation of multiple directories, all with unique names.
 
 SLDB 1.4 goals:
 +Code fully commented
-+Policies filter set up for limo, bugattie, pentane/triptane, and bugatti engines
 +Negative logic applied for OBJ_MODULES policies = if it isn't EXCL'uded, it is included.
 +Positive logic applied for all other policies = if it isn't INCL'uded, it is excluded.
-
 
