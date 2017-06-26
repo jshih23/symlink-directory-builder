@@ -32,10 +32,13 @@ no significant gui changes
 +run - create directory in /work/SLDB-links-directories/<your project name> - based on keck_file_list
 +this allows for the creation of multiple directories, all with unique names.
 
-SLDB 1.4 goals:
+SLDB 1.4:
 +Code fully commented
 +Policies filter set up for limo, bugattie, pentane/triptane, and bugatti engines
 +Negative logic applied for OBJ_MODULES policies = if it isn't EXCL'uded, it is included.
 +Positive logic applied for all other policies = if it isn't INCL'uded, it is excluded.
 
-
+SLDB 1.4.5:
++Minor bug fixes:
++subsys_pe_policies.mf file wasn't being properly located for policy filtering - FIXED
++commented out System.out.println lines to remove console output. Should speed up runtime by a little bit
