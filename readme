@@ -42,3 +42,12 @@ SLDB 1.4.5:
 +Minor bug fixes:
 +subsys_pe_policies.mf file wasn't being properly located for policy filtering - FIXED
 +commented out System.out.println lines to remove console output. Should speed up runtime by a little bit
+
+SLDB 1.5:
++Major UI changes. Simplified process by assuming /work directory.
+-Removed isntructions popup at program finish. Now, the SLDB-links-directories folder located in /work opens automatically.
+-Removed load trunk button.
++allows for all keck_file_lists in /work to be located, as opposed to just those in opkgbuild.
++Policy check unchecked by default. Slightly changed text.
++Added tooltiptext to some UI elements, which could be useful with the even more simplified process. 
+
