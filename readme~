@@ -34,7 +34,7 @@ no significant gui changes
 
 SLDB 1.4:
 +Code fully commented
-+Policies filter set up for limo, bugattie, pentane/triptane, and bugatti engines
++Policies filter set up for limo, bugatti, pentane/triptane, and bugatti engines
 +Negative logic applied for OBJ_MODULES policies = if it isn't EXCL'uded, it is included.
 +Positive logic applied for all other policies = if it isn't INCL'uded, it is excluded.
 
@@ -48,5 +48,6 @@ SLDB 1.5:
 -Removed isntructions popup at program finish. Now, the SLDB-links-directories folder located in /work opens automatically.
 -Removed load trunk button.
 +allows for all keck_file_lists in /work to be located, as opposed to just those in opkgbuild.
-+Policy check unchecked by default.
++Policy check unchecked by default. Slightly changed text.
++Added tooltiptext to some UI elements, which could be useful with the even more simplified process. 
 
